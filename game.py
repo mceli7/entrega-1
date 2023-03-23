@@ -16,6 +16,8 @@ for i in range(0, times):
 	operators = ["+", "-", "*", "/"]
 
 	operator = choice(operators)
+	
+#Evito que el segundo número sea 0 si la operación es división
 
 	if operator == operators[3]:
 		while number_2 == 0 :
